@@ -5,3 +5,7 @@ students = {
 }
 
 students.each {|k, v| puts "#{k}: has #{v} students"}
+
+students[:cohort4] = 43
+
+students.each { |k, v| puts "#{k}: has #{v} students!" }
