@@ -12,9 +12,9 @@ puts students.keys
 
 
 students.each do |k, v|
-  v2 = v * 1.05
+  students[k] = (v * 1.05).round
   # create a variable to make a new value then .round
-  puts "#{k} had a 5%... now has #{v2.round} students"
+  puts "#{k} had a 5%... now has #{v} students"
 
 end
 
