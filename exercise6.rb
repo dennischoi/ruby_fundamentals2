@@ -32,3 +32,15 @@ puts grocery_list[1]
 sorted_list = grocery_list.sort
 
 sorted_list.each {|items| puts "* #{items}"}
+
+def remove(d)
+  puts "What do you want to remove?"
+  user_input3 = gets.chomp
+  if d.delete(user_input3)
+    puts "You removed #{user_input3} from the list."
+  else
+    puts "That's not on the list."
+  end
+end
+
+remove(sorted_list)
