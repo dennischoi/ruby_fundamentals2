@@ -28,3 +28,7 @@ end
 check(grocery_list)
 
 puts grocery_list[1]
+
+sorted_list = grocery_list.sort
+
+sorted_list.each {|items| puts "* #{items}"}
