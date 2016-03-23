@@ -16,3 +16,7 @@ students.each do |k, v|
   puts "#{k} had a 5%... now has #{v2.round} students"
 
 end
+
+students.delete(:cohort2)
+
+students.each {|k, v| puts "#{k}: has #{v} students."}
