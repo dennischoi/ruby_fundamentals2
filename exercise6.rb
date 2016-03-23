@@ -44,3 +44,8 @@ def remove(d)
 end
 
 remove(sorted_list)
+
+puts sorted_list
+
+
+puts "Exercise 6 Done!"
