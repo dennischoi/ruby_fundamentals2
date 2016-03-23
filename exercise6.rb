@@ -26,3 +26,5 @@ def check(b)
 end
 
 check(grocery_list)
+
+puts grocery_list[1]
