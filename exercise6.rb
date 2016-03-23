@@ -13,3 +13,16 @@ end
 add(grocery_list)
 
 puts "Now that you've added stuff... you need to get #{grocery_list.size} things total"
+
+
+def check(b)
+  puts "What do you want to check our cart for?"
+  user_input2 = gets.chomp
+  if b.include?(user_input2)
+    puts "Don't need to pick up any #{user_input2}"
+  else
+    puts "Gotta get some #{user_input2}!"
+  end
+end
+
+check(grocery_list)
